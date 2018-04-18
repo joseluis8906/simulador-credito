@@ -1,6 +1,7 @@
 package com.simulador.credito;
 
 import java.awt.*;
+import java.util.Locale;
 
 
 class ThreadGui extends Thread {
@@ -24,6 +25,8 @@ class ThreadConsole extends Thread {
 
 public class Application {
     public static void main (String[] args) {
+        Locale.setDefault(new Locale("es", "CO"));
+
         ThreadConsole cmdApp = new ThreadConsole();
         cmdApp.start();
 
