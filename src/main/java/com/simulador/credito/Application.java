@@ -39,8 +39,8 @@ public class Application {
         DecimalFormat df = new DecimalFormat("#.#");
 
         NumberFormat nf = NumberFormat.getCurrencyInstance();
-        nf.setMinimumFractionDigits(1);
-        nf.setMaximumFractionDigits(1);
+        nf.setMinimumFractionDigits(0);
+        nf.setMaximumFractionDigits(0);
 
         System.out.println("---------------------------------------------------------");
         System.out.println(String.format("|%-8d||%-10s||%12s||%7s||%10s|", 0, nf.format(P), nf.format(0.0), nf.format(0.0), nf.format(0)));
