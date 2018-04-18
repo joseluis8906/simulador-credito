@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
-Class-Path: 
+Class-Path: miglayout-swing-5.0.jar miglayout-core-5.0.jar
 Main-Class: com.simulador.credito.Application
 

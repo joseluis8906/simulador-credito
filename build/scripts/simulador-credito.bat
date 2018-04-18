@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\simulador_credito-0.1.0.jar
+set CLASSPATH=%APP_HOME%\lib\simulador_credito-0.1.0.jar;%APP_HOME%\lib\miglayout-swing-5.0.jar;%APP_HOME%\lib\miglayout-core-5.0.jar
 
 @rem Execute simulador-credito
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SIMULADOR_CREDITO_OPTS%  -classpath "%CLASSPATH%" com.simulador.credito.Application %CMD_LINE_ARGS%
